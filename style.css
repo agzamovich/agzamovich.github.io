@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash&subset=latin-ext');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+
+	background-color: pink;
+}
+
+div{
+	height: 50vh;
+}
+input[type=number]{
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	background: rgba(255, 25, 0, 0.4);
+	color: #6000FF;
+	border: 0;
+	font-size: 10em;
+	font-family: 'Berkshire Swash', cursive;
+	outline: none;
+}
+#fartemp{
+	border-top: 4px solid grey;
+}
+::-webkit-input-placeholder{
+	color: #D7F6E2;
+}
